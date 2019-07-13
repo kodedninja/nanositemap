@@ -1,4 +1,4 @@
-var toXML = require('jsontoXML')
+var toXML = require('jsontoxml')
 var assert = require('assert')
 
 module.exports = nanositemap

@@ -1,0 +1,25 @@
+{
+  "name": "nanositemap",
+  "version": "0.0.0",
+  "description": "Small sitemap generation utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kodedninja/nanositemap"
+  },
+  "keywords": [
+    "sitemap"
+  ],
+  "author": "kodedninja",
+  "license": "MIT",
+  "dependencies": {
+    "jsontoxml": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^13.0.2",
+    "tape": "^4.11.0"
+  }
+}

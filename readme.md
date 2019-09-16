@@ -15,10 +15,14 @@ npm i nanositemap
 var nanositemap = require('nanositemap')
 
 var sm = nanositemap('https://hex22.org', {
-  '/': { lastmod: '2019-07-13', priority: 0.8 }
-  '/blog': { lastmod: '2019-05-11', priority: 0.2 }
+  '/': { lastmod: '2019-07-13', priority: 0.8 },
+  '/blog': { lastmod: '2019-05-11', priority: 0.2 },
   '/blog/are-you-the-owner': {}
 })
+
+// or simply
+
+var sm = nanositemap('https://hex22.org', ['/', '/blog', '/blog/are-you-the-owner'])
 
 ```
 
